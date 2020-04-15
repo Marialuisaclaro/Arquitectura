@@ -1,0 +1,6 @@
+*.str
+*.jou
+*.xml
+*.vdb
+*.vdi
+*.wdf
