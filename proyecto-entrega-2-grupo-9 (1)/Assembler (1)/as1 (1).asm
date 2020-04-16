@@ -1,0 +1,12 @@
+DATA:
+var1 3
+var2 5
+CODE:
+MOV A,var2
+MOV A,0
+NOP
+NOP
+NOP
+NOP
+NOP
+MOV A,(var1)

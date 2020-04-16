@@ -1,0 +1,10 @@
+DATA:
+CODE:
+MOV A,2
+PUSH A
+MOV A,0
+NOT B,A
+INC (B)
+POP A
+end:
+JMP end

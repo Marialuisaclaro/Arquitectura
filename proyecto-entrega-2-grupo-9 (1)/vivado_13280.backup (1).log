@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Oct  9 01:38:17 2019
+# Process ID: 13280
+# Current directory: /home/federico/Desktop/proyecto-entrega-2-grupo-9
+# Command line: vivado
+# Log file: /home/federico/Desktop/proyecto-entrega-2-grupo-9/vivado.log
+# Journal file: /home/federico/Desktop/proyecto-entrega-2-grupo-9/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/federico/Desktop/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 6173.027 ; gain = 77.285 ; free physical = 350 ; free virtual = 3686
+update_compile_order -fileset sources_1
+open_bd_design {/home/federico/Desktop/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/bd/design_1/design_1.bd}
+Successfully read diagram <design_1> from BD file </home/federico/Desktop/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/bd/design_1/design_1.bd>
+reset_run synth_1
+launch_runs synth_1
+[Wed Oct  9 01:40:24 2019] Launched synth_1...
+Run output will be captured here: /home/federico/Desktop/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.runs/synth_1/runme.log
+launch_runs impl_1
+[Wed Oct  9 01:41:35 2019] Launched impl_1...
+Run output will be captured here: /home/federico/Desktop/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Oct 13 21:52:30 2019...

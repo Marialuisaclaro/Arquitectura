@@ -1,0 +1,543 @@
+
+*** Running vivado
+    with args -log Principal.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Principal.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source Principal.tcl -notrace
+Command: synth_design -top Principal -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7768 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 363.305 ; gain = 100.594
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Principal' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/Principal.vhd:11]
+INFO: [Synth 8-3491] module 'Clock_Divider' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/modulos/Clock_Divider.vhd:7' bound to instance 'DivisorDeClock' of component 'Clock_Divider' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/Principal.vhd:153]
+INFO: [Synth 8-638] synthesizing module 'Clock_Divider' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/modulos/Clock_Divider.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'Clock_Divider' (1#1) [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/modulos/Clock_Divider.vhd:13]
+INFO: [Synth 8-3491] module 'program_counter' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/program_counter.vhd:6' bound to instance 'PC' of component 'program_counter' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/Principal.vhd:154]
+INFO: [Synth 8-638] synthesizing module 'program_counter' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/program_counter.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'program_counter' (2#1) [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/program_counter.vhd:13]
+INFO: [Synth 8-3491] module 'MUX2x12' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x12.vhd:4' bound to instance 'MUXPC' of component 'MUX2x12' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/Principal.vhd:155]
+INFO: [Synth 8-638] synthesizing module 'MUX2x12' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x12.vhd:10]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M0' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x12.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:8]
+INFO: [Synth 8-256] done synthesizing module 'MUX2' (3#1) [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:8]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M1' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x12.vhd:16]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M2' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x12.vhd:17]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M3' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x12.vhd:18]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M4' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x12.vhd:19]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M5' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x12.vhd:20]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M6' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x12.vhd:21]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M7' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x12.vhd:22]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M8' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x12.vhd:23]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M9' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x12.vhd:24]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M10' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x12.vhd:25]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M11' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x12.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'MUX2x12' (4#1) [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x12.vhd:10]
+INFO: [Synth 8-3491] module 'SP' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/SP.vhd:7' bound to instance 'StackPointer' of component 'SP' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/Principal.vhd:156]
+INFO: [Synth 8-638] synthesizing module 'SP' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/SP.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'SP' (5#1) [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/SP.vhd:16]
+INFO: [Synth 8-3491] module 'MUX4x12' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:4' bound to instance 'MUXS' of component 'MUX4x12' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/Principal.vhd:157]
+INFO: [Synth 8-638] synthesizing module 'MUX4x12' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:10]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M0_0' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:16]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M0_1' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:17]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M0_2' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:18]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M1_0' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:19]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M1_1' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:20]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M1_2' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:21]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M2_0' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:22]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M2_1' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:23]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M2_2' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:24]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M3_0' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:25]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M3_1' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:26]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M3_2' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:27]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M4_0' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:28]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M4_1' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:29]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M4_2' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:30]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M5_0' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:31]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M5_1' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:32]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M5_2' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:33]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M6_0' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:34]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M6_1' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:35]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M6_2' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:36]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M7_0' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:37]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M7_1' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:38]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M7_2' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:39]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M8_0' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:40]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M8_1' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:41]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M8_2' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:42]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M9_0' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:43]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M9_1' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:44]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M9_2' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:45]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M10_0' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:46]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M10_1' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:47]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M10_2' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:48]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M11_0' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:49]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M11_1' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:50]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M11_2' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:51]
+INFO: [Synth 8-256] done synthesizing module 'MUX4x12' (6#1) [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x12.vhd:10]
+INFO: [Synth 8-3491] module 'adder12' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/adder12.vhd:34' bound to instance 'Adder' of component 'adder12' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/Principal.vhd:158]
+INFO: [Synth 8-638] synthesizing module 'adder12' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/adder12.vhd:42]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/full_adder4.vhd:34' bound to instance 'ADDER_0' of component 'fulladd' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/adder12.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'fulladd' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/full_adder4.vhd:42]
+INFO: [Synth 8-3491] module 'xor3' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/xor3.vhd:34' bound to instance 'x1' of component 'xor3' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/full_adder4.vhd:69]
+INFO: [Synth 8-638] synthesizing module 'xil_defaultlib_xor3' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/xor3.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'xil_defaultlib_xor3' (7#1) [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/xor3.vhd:41]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/and2.vhd:34' bound to instance 'a1' of component 'and2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/full_adder4.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'xil_defaultlib_and2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/and2.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'xil_defaultlib_and2' (8#1) [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/and2.vhd:40]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/and2.vhd:34' bound to instance 'a2' of component 'and2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/full_adder4.vhd:71]
+INFO: [Synth 8-3491] module 'and2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/and2.vhd:34' bound to instance 'a3' of component 'and2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/full_adder4.vhd:72]
+INFO: [Synth 8-3491] module 'or3' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/or2.vhd:34' bound to instance 'o1' of component 'or3' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/full_adder4.vhd:73]
+INFO: [Synth 8-638] synthesizing module 'xil_defaultlib_or3' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/or2.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'xil_defaultlib_or3' (9#1) [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/or2.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'fulladd' (10#1) [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/full_adder4.vhd:42]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/full_adder4.vhd:34' bound to instance 'ADDER_1' of component 'fulladd' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/adder12.vhd:58]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/full_adder4.vhd:34' bound to instance 'ADDER_2' of component 'fulladd' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/adder12.vhd:59]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/full_adder4.vhd:34' bound to instance 'ADDER_3' of component 'fulladd' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/adder12.vhd:60]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/full_adder4.vhd:34' bound to instance 'ADDER_4' of component 'fulladd' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/adder12.vhd:61]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/full_adder4.vhd:34' bound to instance 'ADDER_5' of component 'fulladd' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/adder12.vhd:62]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/full_adder4.vhd:34' bound to instance 'ADDER_6' of component 'fulladd' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/adder12.vhd:63]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/full_adder4.vhd:34' bound to instance 'ADDER_7' of component 'fulladd' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/adder12.vhd:64]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/full_adder4.vhd:34' bound to instance 'ADDER_8' of component 'fulladd' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/adder12.vhd:65]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/full_adder4.vhd:34' bound to instance 'ADDER_9' of component 'fulladd' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/adder12.vhd:66]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/full_adder4.vhd:34' bound to instance 'ADDER_10' of component 'fulladd' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/adder12.vhd:67]
+INFO: [Synth 8-3491] module 'fulladd' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/full_adder4.vhd:34' bound to instance 'ADDER_11' of component 'fulladd' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/adder12.vhd:68]
+INFO: [Synth 8-256] done synthesizing module 'adder12' (11#1) [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/adder12.vhd:42]
+INFO: [Synth 8-3491] module 'MUX2x16' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x16.vhd:4' bound to instance 'MUXDataIN' of component 'MUX2x16' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/Principal.vhd:159]
+INFO: [Synth 8-638] synthesizing module 'MUX2x16' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x16.vhd:10]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M0' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x16.vhd:15]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M1' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x16.vhd:17]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M2' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x16.vhd:18]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M3' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x16.vhd:19]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M4' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x16.vhd:20]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M5' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x16.vhd:21]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M6' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x16.vhd:22]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M7' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x16.vhd:23]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M8' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x16.vhd:24]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M9' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x16.vhd:26]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M10' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x16.vhd:27]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M11' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x16.vhd:28]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M12' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x16.vhd:29]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M13' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x16.vhd:30]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M14' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x16.vhd:31]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M15' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x16.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'MUX2x16' (12#1) [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX2x16.vhd:10]
+INFO: [Synth 8-3491] module 'RAM' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/modulos/RAM.vhd:8' bound to instance 'MemoriaRAM' of component 'RAM' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/Principal.vhd:160]
+INFO: [Synth 8-638] synthesizing module 'RAM' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/modulos/RAM.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'RAM' (13#1) [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/modulos/RAM.vhd:18]
+INFO: [Synth 8-3491] module 'ROM' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/modulos/ROM.vhd:6' bound to instance 'MemoriaROM' of component 'ROM' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/Principal.vhd:161]
+INFO: [Synth 8-638] synthesizing module 'ROM' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/modulos/ROM.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'ROM' (14#1) [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/modulos/ROM.vhd:13]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/modulos/Reg.vhd:7' bound to instance 'RegistroA' of component 'Reg' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/Principal.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'Reg' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/modulos/Reg.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'Reg' (15#1) [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/modulos/Reg.vhd:16]
+INFO: [Synth 8-3491] module 'Reg' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/modulos/Reg.vhd:7' bound to instance 'RegistroB' of component 'Reg' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/Principal.vhd:163]
+INFO: [Synth 8-3491] module 'MUX4x16' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x16.vhd:4' bound to instance 'MUXA' of component 'MUX4x16' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/Principal.vhd:164]
+INFO: [Synth 8-638] synthesizing module 'MUX4x16' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x16.vhd:10]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M0_0' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x16.vhd:16]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M0_1' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x16.vhd:17]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M0_2' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x16.vhd:18]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M1_0' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x16.vhd:19]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M1_1' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x16.vhd:20]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M1_2' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x16.vhd:21]
+INFO: [Synth 8-3491] module 'MUX2' declared at 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX2.vhd:4' bound to instance 'M2_0' of component 'MUX2' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x16.vhd:22]
+INFO: [Common 17-14] Message 'Synth 8-3491' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'MUX4x16' (16#1) [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/MUX4x16.vhd:10]
+INFO: [Synth 8-638] synthesizing module 'ALU' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/LU.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'adder16' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/adder16.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'adder16' (17#1) [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/adder16.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'sub16' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/sub16.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'sub16' (18#1) [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/sub16.vhd:42]
+INFO: [Synth 8-638] synthesizing module 'MUX8' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX8.vhd:10]
+INFO: [Synth 8-638] synthesizing module 'MUX4' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX4.vhd:8]
+INFO: [Synth 8-256] done synthesizing module 'MUX4' (19#1) [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX4.vhd:8]
+INFO: [Synth 8-256] done synthesizing module 'MUX8' (20#1) [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/MUX8.vhd:10]
+WARNING: [Synth 8-614] signal 'salida' is read in the process but is not in the sensitivity list [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/LU.vhd:154]
+WARNING: [Synth 8-614] signal 'input1' is read in the process but is not in the sensitivity list [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/LU.vhd:163]
+WARNING: [Synth 8-614] signal 'input2' is read in the process but is not in the sensitivity list [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/LU.vhd:163]
+WARNING: [Synth 8-614] signal 'selector' is read in the process but is not in the sensitivity list [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/LU.vhd:163]
+WARNING: [Synth 8-614] signal 'selector' is read in the process but is not in the sensitivity list [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/LU.vhd:172]
+WARNING: [Synth 8-614] signal 'carry1' is read in the process but is not in the sensitivity list [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/LU.vhd:172]
+WARNING: [Synth 8-614] signal 'carry2' is read in the process but is not in the sensitivity list [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/LU.vhd:172]
+WARNING: [Synth 8-614] signal 'input1' is read in the process but is not in the sensitivity list [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/LU.vhd:172]
+WARNING: [Synth 8-3848] Net carry2 in module/entity ALU does not have driver. [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/LU.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (21#1) [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/imports/new/LU.vhd:14]
+INFO: [Synth 8-638] synthesizing module 'Status' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/Status.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Status' (22#1) [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/Status.vhd:11]
+INFO: [Synth 8-638] synthesizing module 'Control_unit' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/Control_unit.vhd:15]
+INFO: [Synth 8-226] default block is never used [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/Control_unit.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'Control_unit' (23#1) [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/Control_unit.vhd:15]
+INFO: [Synth 8-638] synthesizing module 'Display_Controller' [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/modulos/Display_Controller.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'Display_Controller' (24#1) [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/modulos/Display_Controller.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'Principal' (25#1) [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/Principal.vhd:11]
+WARNING: [Synth 8-3917] design Principal has port led[14] driven by constant 0
+WARNING: [Synth 8-3917] design Principal has port led[13] driven by constant 0
+WARNING: [Synth 8-3917] design Principal has port led[12] driven by constant 0
+WARNING: [Synth 8-3917] design Principal has port led[11] driven by constant 0
+WARNING: [Synth 8-3331] design ALU has unconnected port clock
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 421.930 ; gain = 159.219
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 421.930 ; gain = 159.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 421.930 ; gain = 159.219
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/constrs_1/imports/new/Artix7.xdc]
+Finished Parsing XDC File [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/constrs_1/imports/new/Artix7.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/constrs_1/imports/new/Artix7.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Principal_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Principal_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 759.508 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 759.508 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 759.508 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 759.508 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 759.508 ; gain = 496.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 759.508 ; gain = 496.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 759.508 ; gain = 496.797
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/SP.vhd:25]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/modulos/Reg.vhd:25]
+INFO: [Synth 8-5546] ROM "status" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "led" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:18 . Memory (MB): peak = 759.508 ; gain = 496.797
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---XORs : 
+	   3 Input      1 Bit         XORs := 60    
++---Registers : 
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     27 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module Principal 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module Clock_Divider 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     27 Bit        Muxes := 1     
+Module SP 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module xil_defaultlib_xor3 
+Detailed RTL Component Info : 
++---XORs : 
+	   3 Input      1 Bit         XORs := 1     
+Module Reg 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 2     
+Module ALU 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module Status 
+Detailed RTL Component Info : 
++---Registers : 
+	                3 Bit    Registers := 1     
+Module Display_Controller 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      2 Bit       Adders := 1     
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "led" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "UnidadLogicaAritmetica/status" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "led" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3917] design Principal has port led[14] driven by constant 0
+WARNING: [Synth 8-3917] design Principal has port led[13] driven by constant 0
+WARNING: [Synth 8-3917] design Principal has port led[12] driven by constant 0
+WARNING: [Synth 8-3917] design Principal has port led[11] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 759.508 ; gain = 496.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++------------+------------+---------------+----------------+
+|Module Name | RTL Object | Depth x Width | Implemented As | 
++------------+------------+---------------+----------------+
+|ROM         | p_0_out    | 4096x36       | LUT            | 
+|ROM         | p_0_out    | 4096x36       | LUT            | 
++------------+------------+---------------+----------------+
+
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+-----------------------+-----------+----------------------+-------------------+
+|Module Name | RTL Object            | Inference | Size (Depth x Width) | Primitives        | 
++------------+-----------------------+-----------+----------------------+-------------------+
+|Principal   | MemoriaRAM/memory_reg | Implied   | 4 K x 16             | RAM256X1S x 256   | 
++------------+-----------------------+-----------+----------------------+-------------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 759.508 ; gain = 496.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 773.387 ; gain = 510.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------+-----------------------+-----------+----------------------+-------------------+
+|Module Name | RTL Object            | Inference | Size (Depth x Width) | Primitives        | 
++------------+-----------------------+-----------+----------------------+-------------------+
+|Principal   | MemoriaRAM/memory_reg | Implied   | 4 K x 16             | RAM256X1S x 256   | 
++------------+-----------------------+-----------+----------------------+-------------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:33 . Memory (MB): peak = 773.387 ; gain = 510.676
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 773.387 ; gain = 510.676
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 773.387 ; gain = 510.676
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 773.387 ; gain = 510.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 773.387 ; gain = 510.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 773.387 ; gain = 510.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 773.387 ; gain = 510.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+----------+------+
+|      |Cell      |Count |
++------+----------+------+
+|1     |BUFG      |     2|
+|2     |CARRY4    |    27|
+|3     |LUT1      |    33|
+|4     |LUT2      |    50|
+|5     |LUT3      |    45|
+|6     |LUT4      |    37|
+|7     |LUT5      |    21|
+|8     |LUT6      |    89|
+|9     |MUXF7     |     1|
+|10    |RAM256X1S |    16|
+|11    |FDRE      |    92|
+|12    |IBUF      |     1|
+|13    |OBUF      |    28|
++------+----------+------+
+
+Report Instance Areas: 
++------+-----------------+-------------------+------+
+|      |Instance         |Module             |Cells |
++------+-----------------+-------------------+------+
+|1     |top              |                   |   442|
+|2     |  Displayer      |Display_Controller |    33|
+|3     |  DivisorDeClock |Clock_Divider      |    60|
+|4     |  Estatus        |Status             |     1|
+|5     |  MemoriaRAM     |RAM                |    16|
+|6     |  MemoriaROM     |ROM                |    29|
+|7     |  PC             |program_counter    |   215|
+|8     |  RegistroA      |Reg                |    41|
+|9     |  RegistroB      |Reg_0              |    16|
++------+-----------------+-------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 773.387 ; gain = 510.676
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:27 . Memory (MB): peak = 773.387 ; gain = 173.098
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 773.387 ; gain = 510.676
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 44 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 773.387 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 16 instances were transformed.
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 16 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+171 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:37 . Memory (MB): peak = 773.387 ; gain = 523.754
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 773.387 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.runs/synth_1/Principal.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Principal_utilization_synth.rpt -pb Principal_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Nov  2 14:15:09 2019...

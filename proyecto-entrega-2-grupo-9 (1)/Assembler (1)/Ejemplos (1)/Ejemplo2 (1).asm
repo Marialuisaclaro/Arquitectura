@@ -1,0 +1,11 @@
+DATA:
+CODE:
+MOV A,3     //poto
+MOV B,5
+MOV (0),A
+MOV A,B
+MOV B,(0)
+SUB A,B
+XOR A,B
+XOR B,A
+XOR A,B

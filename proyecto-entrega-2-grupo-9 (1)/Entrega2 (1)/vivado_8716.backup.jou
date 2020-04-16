@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Oct 30 17:19:04 2019
+# Process ID: 8716
+# Current directory: C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8936 C:\Users\Joaquin Camus\Documents\Progra\U\ArquiComputadores\proyecto-entrega-2-grupo-9\Entrega2\Entrega2.xpr
+# Log file: C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/vivado.log
+# Journal file: C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.xpr}
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Users/Joaquin Camus/Documents/Progra/U/ArquiComputadores/proyecto-entrega-2-grupo-9/Entrega2/Entrega2.srcs/sources_1/new/adder12.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
